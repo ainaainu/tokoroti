@@ -1,3 +1,9 @@
+/*
+ * .site-hero
+ * bagian halaman depan dari tiap halaman yang berisi judul halaman
+ * dan gambar latar belakang.
+*/
+
 .site-hero {
   background: url("../images/cover.jpg");
   background-position: center center;
@@ -5,10 +11,21 @@
   padding-inline: 0;
 }
 
+/*
+ * .site-hero-inner
+ * bagian dalam dari .site-hero yang berisi teks judul halaman.
+*/
+
 .site-hero-inner {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
 }
+
+/*
+ * .navbar
+ * navigasi utama website yang memiliki latar belakang transparan
+ * dan efek blur ketika di-scroll.
+*/
 
 .navbar {
   background: rgba(255, 255, 255, 0.8);
